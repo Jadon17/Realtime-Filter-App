@@ -1,0 +1,78 @@
+h2 {
+    font-size: 35px !important;
+    background-color: #ADD8E6;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 70px;
+    font-family: 'Shadows Into Light', cursive;
+    }
+
+canvas {
+    border: 2px black dashed;
+    animation-name:ColorChange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-color: wheat;
+    margin-top: 30px;
+}
+
+@keyframes ColorChange {
+    from{
+        box-shadow:10px 10px 18px blue;
+    }
+to {
+    box-shadow: 10px 10px 18px green;
+}
+}
+
+.btn-success:hover {
+    animation-name: test;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+label {
+    font-size: 18px;
+    font-family: Bookman Old Style;
+    color: aqua;
+    animation-name: butopl;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test {
+    0%{
+        background-color: red;
+    }    
+    25% {
+        background-color:#ADD8E6;
+    }
+    50% {
+        background-color: orange;
+    }
+    75% {
+        background-color: royalblue;
+    }
+    100% {
+        background-color: pink;
+    }
+}
+
+@keyframes butopl{
+    0%{
+        color: aqua;
+    }
+    25% {
+        color: pink;
+    }
+    50% {
+        color:blue
+    }
+    75%{
+        color: turquoise;
+    }
+    100% {
+        color:aqua
+    }
+}
